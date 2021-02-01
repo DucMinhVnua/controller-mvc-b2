@@ -1,0 +1,89 @@
+{
+  "books": [
+    {
+      "title": "Naruto",
+      "id": 0.6307680564436977,
+      "description": "Truyện đáng để đọc"
+    },
+    {
+      "title": "Doremon",
+      "description": "Truyện tuổi thơ",
+      "id": 0.8227108874741844
+    },
+    {
+      "title": "Conan",
+      "description": "Truyện thám tử lừng danh conan",
+      "id": 0.20273465618187037
+    }
+  ],
+  "users": [
+    {
+      "name": "Nguyễn Đức Minh",
+      "id": 0.9197848499954706
+    },
+    {
+      "name": "Nguyễn Thanh Mai",
+      "id": 0.4569526159195343
+    },
+    {
+      "name": "Nguyễn Đức Hải",
+      "id": 0.6736186407885525
+    }
+  ],
+  "transactions": [
+    {
+      "id": 0.6385996230691715,
+      "userId": 0.9197848499954706,
+      "bookId": 0.6307680564436977,
+      "nameUser": "Nguyễn Đức Minh",
+      "nameBook": "Naruto",
+      "isComplete": true
+    },
+    {
+      "id": 0.8296692439491304,
+      "userId": 0.4569526159195343,
+      "bookId": 0.6307680564436977,
+      "nameUser": "Nguyễn Thanh Mai",
+      "nameBook": "Naruto",
+      "isComplete": true
+    },
+    {
+      "id": 0.6139961379532624,
+      "userId": 0.6736186407885525,
+      "bookId": 0.20273465618187037,
+      "nameUser": "Nguyễn Đức Hải",
+      "nameBook": "Conan",
+      "isComplete": true
+    },
+    {
+      "id": 0.5821007323961918,
+      "userId": 0.9197848499954706,
+      "bookId": 0.8227108874741844,
+      "nameUser": "Nguyễn Đức Minh",
+      "nameBook": "Doremon",
+      "isComplete": true
+    },
+    {
+      "id": 0.1616528773473449,
+      "userId": 0.9197848499954706,
+      "bookId": 0.20273465618187037,
+      "nameUser": "Nguyễn Đức Minh",
+      "nameBook": "Conan",
+      "isComplete": true
+    },
+    {
+      "id": 0.4615676763117851,
+      "userId": 0.4569526159195343,
+      "bookId": 0.20273465618187037,
+      "nameUser": "Nguyễn Thanh Mai",
+      "nameBook": "Conan"
+    },
+    {
+      "id": 0.19117885070305896,
+      "userId": 0.6736186407885525,
+      "bookId": 0.8227108874741844,
+      "nameUser": "Nguyễn Đức Hải",
+      "nameBook": "Doremon"
+    }
+  ]
+}

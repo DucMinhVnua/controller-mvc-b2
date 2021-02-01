@@ -1,0 +1,12 @@
+h1 transaction
+    ul 
+        li
+            a(href="/transaction/create") Create transaction
+        hr
+        each transaction in transactions
+            li #{transaction.nameUser} đã thuê #{transaction.nameBook}
+                span    
+                if transaction.isComplete
+                     a(href="/transaction/"+transaction.id+"/complete") Đã hoàn thành
+                else
+                     a(href="/transaction/"+transaction.id+"/complete") Hoàn thành            
